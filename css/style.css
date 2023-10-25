@@ -11,8 +11,6 @@
     height: 800px;
 }
 
-.parentheader {}
-
 .navbar {
     justify-content: flex-end;
     display: flex;
@@ -217,5 +215,17 @@ font-size: smaller;
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+.sect4 h1{
+    padding-top: 1cm;
+    color: rgb(135, 135, 135);
+   font-size: smaller;  
+   text-align: center;
+}
+.sect4  h2{
+   color: blueviolet;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding-bottom: 1cm;
+   text-align: center;
 }
 
