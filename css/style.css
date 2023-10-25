@@ -222,10 +222,18 @@ font-size: smaller;
    font-size: smaller;  
    text-align: center;
 }
-.sect4  h2{
+.sect4 h2{
    color: blueviolet;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    padding-bottom: 1cm;
    text-align: center;
 }
-
+.sect5{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.sect5 img{
+    height: 250px;
+    width: 250px;
+}
