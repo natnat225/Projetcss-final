@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap'); /* on a importer la police de text */
+/* on a mis la marge et le padding au valeur 0 */
 * {
     margin: 0;
     padding: 0;
 }
-
+/* on a pris l'image du header et creer une couleur degrader et on a regler la taille */
 .image {
     background-image: linear-gradient(to bottom, transparent, transparent, white), url("../images/header.jpg");
     background-size: cover;
     width: 100%;
     height: 800px;
 }
-
+/* on a placer la navbar a la fin cest a dire a droite on a mis un espace entre les liens et on les a alligner et changer la police */
 .navbar {
     justify-content: flex-end;
     display: flex;
@@ -20,32 +20,32 @@
     padding-top: 2%;
     font-family: 'Tilt Neon', sans-serif;
 }
-
+/* on a enlever la deco du text et on la mis en blanc */
 .navbar>div a {
     text-decoration: none;
     color: white;
 }
-
+/* on a placer le text et changer la police du header */
 .textheader {
     width: 40%;
     margin-top: 15%;
     font-family: 'Tilt Neon', sans-serif;
 }
-
+/* on a alligner les element et on les a placer au centre du header  */
 .headerparent {
     display: flex;
     justify-content: center;
 }
-
+/* on a placer le bouton au centre  */
 .boutonheader {
     text-align: center;
     padding-top: 3%;
 }
-
+/* on a changer la taille du texte */
 p {
     font-size: 200%;
 }
-
+/* on a changer la taille du text on la mis en gras et en couleur */
 .p1 {
     font-size: 400%;
     color: rgb(131, 118, 118);
@@ -61,14 +61,15 @@ p {
     font-size: 400%;
     font-weight: 1000;
 }
-
+/* on a changer la taille du texte appliquer une police et mis des espace entre les lettres */
 .p4 {
     font-size: medium;
     justify-content: space-between;
     letter-spacing: 10px;
     font-family: 'Tilt Neon', sans-serif;
 }
-
+/* on a changer la couleur du bouton arrondi les bord mis un effet a la souris changer 
+la police placer le bouton enlever la decoration du bouton changer la taille de l'ecriture */
 .myButton {
     background-color: #5b78bf;
     border-radius: 28px;
@@ -84,36 +85,36 @@ p {
     margin-top: 8%;
     font-family: 'Tilt Neon', sans-serif;
 }
-
+/* on a creer un hover quand on passe sur le bouton il change de couleur */
 .myButton:hover {
     background-color: #5b78bf;
 }
-
+/* on placer le bouton  */
 .myButton:active {
     position: relative;
     top: 1px;
 }
-
+/* on a alligner les element */
 .barber {
     display: flex;
 }
-
+/* on a mis en place changer la couleur et la taille du texte */
 .barber h1 {
     padding-top: 3cm;
     color: rgb(135, 135, 135);
     font-size: smaller;
 }
-
+/* on a changer la couleur et la police */
 .barber h2 {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* on a changer la couleur et la police */
 .barber p {
     color: rgb(137, 137, 137);
     font-size: 110%;
 }
-
+/* on mis des bords rond changer la couleur des bordure et de l'ecriture et du back et ajuster la taille */
 .barber button {
     border-radius: 20%;
     color: blueviolet;
@@ -121,28 +122,28 @@ p {
     background-color: rgb(255, 255, 255);
     height: 30px;
 }
-
+/* on a alligner le texte */
 .sect2 .titre {
     text-align: center;
 
 }
-
+/* on a changer la couleur et la taille du texte */
 .sect2 .titre h1 {
     color: rgb(135, 135, 135);
     font-size: smaller;
 }
-
+/* on a changer la couleur mis un padding et changer la police */
 .sect2 .titre h2 {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 1cm;
 }
-
+/* on a alligner et mis un espace entre les element */
 .sect3 {
     display: flex;
     justify-content: space-evenly;
 }
-
+/* on a mis des bord ajuster la taille alligner et on a mis en cologne au centre */
 .sect3 div {
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 250px;
@@ -152,16 +153,16 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/* on a changer la taille */
 .sect3 div img {
     width: 30%;
 }
-
+/* on a changer la couleur et la police */
 .sect3 div h3 {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
+/* on a modifier la taille on a enlever les bord changer la couleur du text et du back on a arrondis les bord  */
 .button-85 {
     padding: 0.6em 2em;
     border: none;
@@ -176,7 +177,7 @@ p {
     -webkit-user-select: none;
     touch-action: manipulation;
 }
-
+/* on a mis une couleur linear on changer la position la taille la transition de l'intensiter des couleur et arrondi les bords*/
 .button-85:before {
     content: "";
     background: linear-gradient(45deg,
@@ -202,7 +203,7 @@ p {
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
 }
-
+/* on a creer une animation pour changer la couleur des bords */
 @keyframes glowing-button-85 {
     0% {
         background-position: 0 0;
@@ -216,7 +217,7 @@ p {
         background-position: 0 0;
     }
 }
-
+/* on a changer la position la taille la couleur du back et arrondi les bords */
 .button-85::after {
     z-index: -1;
     content: "";
@@ -228,32 +229,32 @@ p {
     top: 0;
     border-radius: 10px;
 }
-
+/* on a changer la taille changer la couleur et la taille de la police */
 .sect4 h1 {
     padding-top: 1cm;
     color: rgb(135, 135, 135);
     font-size: smaller;
     text-align: center;
 }
-
+/* on a changer la couleur la taille et la police */
 .sect4 h2 {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 1cm;
     text-align: center;
 }
-
+/* on a mis un ecart alligner et mis au centre le contenu */
 .sect5 {
     display: flex;
     gap: 8px;
     justify-content: center;
 }
-
+/* on ajuster la taille */
 .sect5 img {
     height: 250px;
     width: 250px;
 }
-
+/* on a centrer on a changer un peu la taille la couleur et la police */
 .sect6 h1 {
     text-align: center;
     padding-top: 1cm;
@@ -261,7 +262,7 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
 }
-
+/* on a centrer le text changer la couleur et changer la police */
 .sect6 h2 {
     text-align: center;
     color: blueviolet;
@@ -269,14 +270,14 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+/* on a alligner les element mis un espace et ajuster la taille */
 .sect7 {
     display: flex;
     justify-content: space-evenly;
     width: 60%;
     margin-inline: auto;
 }
-
+/* on a ajouter des bordure changer la taille alligner les element mis les element en colonne et placer les items au centre */
 .sect7 div {
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -287,16 +288,16 @@ p {
     justify-content: center;
 
 }
-
+/* on a ajuster la taille */
 .sect7 div img {
     width: 30%;
 }
-
+/* on a changer la couleur et la police */
 .sect3 div h3 {
     color: blueviolet;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
+/* on a changer la police et la couleur */
 .sect7 div h5 {
     color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -312,19 +313,20 @@ p {
     color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* on a positioner pour mettre les block en ligne et ajuster la taille */
 .transparent {
     position: relative;
     display: inline-block;
     margin-right: 10px;
 }
-
+/* on a ajuster la taille et placer les element en block */
 .transparent img {
     max-width: 100%;
     height: auto;
     display: block;
 }
-
+/* on a mis la position en avant changer la taille mis une couleur au back changer la couleur du text alligner les element au centre
+rendre tranparent l'ecriture et changer la police de base */ 
 .sect5a {
     position: absolute;
     top: 0;
@@ -340,11 +342,12 @@ p {
     transition: opacity 0.3s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* on a crrer un hover qui re affiche l'intensite de couleur */
 .transparent:hover .sect5a {
     opacity: 1;
 }
-
+/* on a mis la position en avant changer la taille la couleur du text et allginer les element
+ au centre mis l'intensiter de la couleur a 0 changer la police */
 .sect5b {
     position: absolute;
     top: 0;
@@ -360,11 +363,11 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 10%;
 }
-
+/* on reaffiche l'intensiter avec un hover */
 .transparent:hover .sect5b {
     opacity: 1;
 }
-
+/* on a importer une police */
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 * {
@@ -460,27 +463,27 @@ p {
     position: relative;
     top: 1px;
 }
-
+/* on a alligner les element */
 .barber {
     display: flex;
 }
-
+/* on a changer la taille de l'ecriture ajuster la taille et changer la couleur */
 .barber h1 {
     padding-top: 3cm;
     color: rgb(135, 135, 135);
     font-size: smaller;
 }
-
+/* on a changer la couleur et la police */
 .barber h2 {
     color: rgb(88, 4, 165);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* on a changer la couleur et la police */
 .barber p {
     color: rgb(137, 137, 137);
     font-size: 110%;
 }
-
+/* on a arrondi les bords changer la couleur des bords et de l'ecriture ainsi que le back et ajuster la taille */
 .barber button {
     border-radius: 20%;
     color: rgb(88, 14, 158);
@@ -488,34 +491,34 @@ p {
     background-color: rgb(255, 255, 255);
     height: 30px;
 }
-
+/* on changer la couleur du back alligner les element et centrer les items et mis des espace entre */
 .bandeviolette {
     background-color: rgb(65, 6, 117);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-
+/* on ajuster la taille et la taille du text */
 .bandeviolette>* {
     padding: 0.5%;
     font-size: 50%;
 }
-
+/* on a changer la police */
 .bandeviolette button {
     font-weight: bold;
 }
-
+/* on a changer la couleur */
 .bandeviolette p {
     color: white;
 }
-
+/* on a alligner centrer le contenu et les items et changer la taille de la police */
 .first {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 35%;
 }
-
+/* on a alligner les element centre les item changer mis la taille a 0 et changer la taille et la couleur du texte */
 .first>h2 {
     display: flex;
     justify-content: center;
@@ -524,7 +527,7 @@ p {
     color: rgb(64, 3, 108);
     font-size: large;
 }
-
+/* on changer la taille du text alligner les element changer la taille mis des espace entre les div et un espace */
 .rects {
     font-size: 40%;
     display: flex;
@@ -533,11 +536,11 @@ p {
     gap: 15px;
     margin-top: 30px;
 }
-
+/* on a changer la couleur du texte */
 .rects b {
     color: rgb(80, 4, 156);
 }
-
+/* on a changer la taille ajouter des bordure alligner les element mis des espace et centre les items */
 .rectanglegauche {
     height: 150px;
     width: 33%;
@@ -546,7 +549,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* on a changer la taille ajouter des bordure alligner les element mis des espace et centrer les element */
 .rectangledroite {
     height: 150px;
     width: 33%;
@@ -555,7 +558,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* on a changer la taille alligner les element et centrer les element et on a deplacer a l'horizontale par rapport a sa taille  */
 .rectsimg {
     width: 30%;
     height: 100%;
@@ -563,24 +566,24 @@ p {
     align-items: center;
     transform: translateX(-50%);
 }
-
+/* on a modifier la taille */
 .rectangledroite p {
     padding-left: 20px;
 }
-
+on a modifier la taille
 .rectanglegauche p {
     padding-left: 20px;
 }
-
+/* on a arrondi les bord et changer la taille  */
 .avatar {
     border-radius: 55%;
     width: 100%;
 }
-
+/* on a modifier la taille */
 .texte {
     margin-left: 2%;
 }
-
+/* on a changer la taille alligner les element changer la taille du texte centrer et aligner les items et ajouter des bordure */
 .premierrectangle {
     margin: auto;
     display: flex;
@@ -591,19 +594,19 @@ p {
     height: 300px;
     border: 2px solid rgba(152, 151, 151, 0.729);
 }
-
+/* on a modifier la taille */
 .img {
     height: 90%;
     width: auto;
     margin-left: 10px;
 }
-
+/* on a modifier la taille */
 .gmi {
     height: 90%;
     width: auto;
     margin-left: 10px;
 }
-
+/* on a modifier la taille changer la taille du text alligner les element au centre et ajouter des bordure */
 .secondrectangle {
     margin: auto;
     display: flex;
@@ -614,55 +617,198 @@ p {
     height: 300px;
     border: 2px solid rgba(152, 151, 151, 0.729);
 }
-
+/* on a modifier la taille */
 .icon {
     height: 2%;
     width: 2%;
 }
-
+/* on a alligner les item au centre changer la taille et arondi les bordure */
 .background2 .bouton {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
     border-radius: 100px;
 }
-
+/* on a ligner les item et pris la taille d'origin */
 textarea {
     display: flex;
     margin: auto;
 }
-
+/* on a ligner les item et pris la taille d'origin */
 .bouton {
     display: flex;
     margin: auto;
 }
-
+/* on a arrondi les bords changer la couleur du back et du text et ajouter des bords */
 .background2 button {
     border-radius: 5px;
     background-color: rgba(255, 0, 0, 0);
     color: rgb(61, 45, 209);
     border: 1px solid rgb(71, 12, 134);
 }
-
+/* on a changer la couleur du back */
 button:active {
     background-color: rgba(96, 29, 163, 0.448);
 }
-
+/* on a alligner les elements mis des espace entre les element et centrer */
 .basdepage {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/* on a alligner les element */
 .logobasdepage {
     display: flex;
 }
-
+/* on a ajuster la taille */
 .basdepage img {
     height: 40px;
     width: 30%;
 }
-
+/* on a changer la taille du texte */
 .gauche {
     font-size: 80%;
 }
+/* on a ajuster la positipn */
+.sect3 div {
+    position: relative;  
+}
+/* controle la vitesse de l'animation */
+.sect3 img {
+    transition: all 0.3s ease;  
+}
+/* on a mis en avant l'element changer la taille enlever l'intensiter de la couleur et ajouter un timer entre la transition
+de l'opaciter */
+.sect3 p {
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    opacity: 0; 
+    transition: opacity 0.3s ease;  
+}
+/* on a changer la taille et le placement */
+.sect3 div:hover img {
+    transform: translateY(-50%); 
+    width: 30px;  
+}
+/* on a ajouter un hover qui remet l'intensiter de la couleur */
+.sect3 div:hover p {
+    opacity: 1;  
+}
+/* on a changer la taille du text alligner les element au centre changer la taille et la couleur du texte ainsi que la police */
+.texteanim{
+    font-size:  110%; 
+    text-align: center;
+    margin-bottom: 15%;
+    color: rgb(106, 98, 98);
+    font-family: 'Tilt Neon', sans-serif;
+/* on a ajuster avec un media les element pour qu'il soit a la bonne taille en responsive */
+}
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+
+    .navbar div {
+        display: block;
+    }
+
+
+    .barber {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sect3 div {
+        display: block;
+    }
+    .sect5 .transparent {
+        display: block;
+    }    
+    .sect7 div {
+        display: block;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .textheader {
+        width: 100%;
+        text-align: center;
+    }
+
+    .barber {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barber h1, .barber h2, .barber p {
+        text-align: center;
+    }
+
+    .sect3 {
+        flex-wrap: wrap;
+    }
+
+    .sect3 div {
+        margin: 10px 0;  
+    }
+
+    .sect5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sect7 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sect7 div {
+        margin: 10px 0;  
+    }
+    
+    .background2 .bouton, textarea, .bouton {
+        width: 100%;
+    }
+
+    .basdepage {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+    
+
+    .premierrectangle, .secondrectangle {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0; 
+    }
+
+    .premierrectangle .img, .secondrectangle .img, 
+    .premierrectangle .gmi, .secondrectangle .gmi {
+        margin: 15px 0; 
+        height: 70%;    
+    }
+
+    .premierrectangle .texte, .secondrectangle .texte {
+        text-align: center; 
+        font-size: 90%;     
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+
+    .premierrectangle .img, .secondrectangle .img, 
+    .premierrectangle .gmi, .secondrectangle .gmi {
+        margin: 15px 0; 
+        height: 30%;    
+        width: auto;   
+    }
+}
+    
+
+
+
